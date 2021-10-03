@@ -20,7 +20,6 @@ jobs:
         id: version
         uses: release-drafter/release-drafter@v5
         with:
-          filter-by-commitish: true
           commitish: ${{ github.ref }}
           disable-autolabeler: true
         env:
