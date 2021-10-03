@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       branch:
-        description: 'Some input'
+        description: 'Some input test'
         required: true
         default: 'main'
 
@@ -20,7 +20,7 @@ jobs:
         id: version
         uses: release-drafter/release-drafter@v5
         with:
-          commitish: ${{ github.ref }}
+          commitish: 'hotfix/1.0.2.x'
           disable-autolabeler: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
