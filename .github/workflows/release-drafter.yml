@@ -7,8 +7,8 @@ on:
         description: 'Some input'
         required: true
         default: 'main'
-        
- jobs:
+
+jobs:
   update_release_draft:
     name: Create new release
     runs-on: ubuntu-latest
