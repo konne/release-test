@@ -2,4 +2,4 @@
 
 add test
 
-add seconds
+add second
